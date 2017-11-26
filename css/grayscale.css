@@ -201,7 +201,11 @@ a {
 #ipad {
   margin: 10vh;
   margin-top: 0;
-  background-color: #003366;
+  background: url("../img/bth.gif") no-repeat bottom center scroll;
+  background-size: 80%;
+  background-position: center;
+  /*background top: -40px;*/
+  /*background-color: #003366;*/
 }
 
 #iphones {
@@ -210,6 +214,13 @@ a {
 /*  background-color: #003366;
 */}
 
+
+ /*connected home*/
+
+  #connected {
+    background-color: #EC6839;
+    color: #fff;
+  }
 
 @media (min-width: 992px) {
   .content-section {
@@ -230,12 +241,13 @@ a {
   border: 1px solid #ffeb3b;
   background-color: transparent; }
   .btn-default:focus, .btn-default:hover {
-    /*outline:0;*/
+    outline:0;
     outline: none;
     color: black;
     border: 1px solid #ffeb3b;
     outline: none;
-    background-color: #ffeb3b; }
+    background-color: #ffeb3b; 
+  }
 
   .nequi {
   color: #210049;
@@ -248,6 +260,8 @@ a {
     border: 1px solid #210049;
     outline: none;
     background-color: #210049;
+    box-shadow: none;
+
    }
 
 .verti {
@@ -255,12 +269,15 @@ a {
   border: 1px solid #f57f17;
   background-color: #f57f17;
   background-color: transparent;
+
 }
    .verti:focus, .verti:hover {
     color: #fff;
     border: 1px solid #f57f17;
     outline: none;
     background-color: #f57f17;
+    box-shadow: none;
+
    }
 
 .ballth {
@@ -274,6 +291,7 @@ a {
     border: 1px solid #29B6F6;
     outline: none;
     background-color: #29B6F6;
+    box-shadow: none;
    }
 
 
