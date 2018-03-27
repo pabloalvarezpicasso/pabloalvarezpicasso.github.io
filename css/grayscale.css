@@ -138,7 +138,7 @@
     .masthead {
         display: table;
         width: 100%;
-        height: 100vh;
+        height: auto;
         padding: 200px 0;
         text-align: center;
         color: white;
@@ -248,7 +248,17 @@
         background-color: #fff;
         color: #000;
     }
+    /*white*/
+    #white-section {
+        background-color: #fff;
+        color: #000;
+    }
     /* ballth*/
+
+    #ballth {
+        background-color: #FAFAFA;
+        color: #000;
+    }
 
     #ipad {
         margin: 10vh;
@@ -305,7 +315,7 @@
         /*outline: none;*/
         background-color: #ffeb3b;
     }
-
+/************/
     .nequi {
         color: #210049;
         border: 1px solid #210049;
@@ -321,7 +331,23 @@
         background-color: #210049;
         /*box-shadow: none;*/
     }
+/************/
+    .white-section {
+        color: #f57f17;
+        border: 1px solid #f57f17;
+        background-color: #f57f17;
+        background-color: transparent;
+    }
 
+    .white-section:focus,
+    .white-section:hover {
+        color: #fff;
+        border: 1px solid #f57f17;
+        /*outline: none;*/
+        background-color: #f57f17;
+        /*box-shadow: none;*/
+    }
+/************/
     .verti {
         color: #f57f17;
         border: 1px solid #f57f17;
@@ -337,7 +363,7 @@
         background-color: #f57f17;
         /*box-shadow: none;*/
     }
-
+/************/
     .ballth {
         color: #29B6F6;
         border: 1px solid #29B6F6;
