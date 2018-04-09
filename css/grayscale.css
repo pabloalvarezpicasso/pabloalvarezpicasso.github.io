@@ -69,10 +69,14 @@
     }
 
     #mainNav {
+        overflow: hidden;
+        position: fixed;
+        width: 100%;
+        z-index: 999;
         font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
         margin-bottom: 0;
         text-transform: uppercase;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        /* border-bottom: 1px solid rgba(255, 255, 255, 0.3); */
         background-color: black;
     }
 
@@ -118,17 +122,19 @@
             transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
             letter-spacing: 1px;
             border-bottom: none;
-            background: transparent;
+            background: black;
         }
         #mainNav.navbar-shrink {
             padding-top: 10px;
             padding-bottom: 10px;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+            /* border-bottom: 1px solid rgba(255, 255, 255, 0.3); */
             background: black;
         }
         #mainNav .nav-link.active {
             outline: none;
-            background-color: rgba(255, 255, 255, 0.3);
+            /* background-color: rgba(255, 255, 255, 0.3); */
+            border-bottom: 6px solid rgba(255, 255, 255, 0.3);
+            
         }
         #mainNav .nav-link.active:hover {
             color: white;
@@ -142,13 +148,16 @@
         padding: 200px 0;
         text-align: center;
         color: white;
-        background: url("../img/background-img.png") no-repeat bottom center scroll;
-        background-color: black;
+        /* background: url("../img/post-it-pablo.png") no-repeat bottom center scroll;
+        -webkit-filter: grayscale(100%) ;
+        filter:  grayscale(100%) ; */
+        background-color: #1c1c1c;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
     }
+    /* */
 
     .masthead .intro-body {
         display: table-cell;
@@ -172,7 +181,7 @@
             font-size: 50px;
         }
         .masthead .intro-body .intro-text {
-            font-size: 22px;
+            font-size: 50px;
         }
     }
 
@@ -197,7 +206,8 @@
     /*home*/
 
     .pabloalvarez {
-        margin-top: 40vh;
+        margin-top: auto;
+        margin-bottom: auto;
     }
 
     .content-section {
