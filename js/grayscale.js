@@ -43,3 +43,14 @@
 })(jQuery); // End of use strict
 
 
+var words = ['products', 'tools', 'maps', 'flows', 'experiences', 'services', 'languajes', 'frames'];
+
+var i=0;
+
+setInterval(function(){
+  $('#change-word').html(words[i])
+  if(i==words.length-1){
+    i=-1
+  }
+  i= i+1
+},2000)
