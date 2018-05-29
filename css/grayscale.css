@@ -77,8 +77,8 @@
 
     a:focus,
     a:hover {
-        text-decoration: none;
-        color: #fbc02d;
+        text-decoration: underline;
+        color: #ffeb3b;
     }
 
     #mainNav {
