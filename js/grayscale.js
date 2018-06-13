@@ -43,7 +43,7 @@
 })(jQuery); // End of use strict
 
 
-var words = ['products', 'tools', 'maps', 'flows', 'experiences', 'services', 'languajes', 'frames'];
+var words = ['products', 'tools', 'maps', 'flows', 'experiences', 'services', 'languages', 'frames'];
 
 var i=0;
 
