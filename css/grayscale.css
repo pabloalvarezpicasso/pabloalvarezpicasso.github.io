@@ -373,6 +373,24 @@
         background-color: #DC1F4A;
         /*box-shadow: none;*/
     }
+
+
+    /************/
+    .white-button {
+        color: #fff;
+        border: 1px solid #fff;
+        background-color: #fff;
+        background-color: transparent;
+    }
+
+    .white-button:focus,
+    .white-button:hover {
+        color: #53BCD4;
+        border: 1px solid #fff;
+        /*outline: none;*/
+        background-color: #fff;
+        /*box-shadow: none;*/
+    }
 /************/
     .verti {
         color: #f57f17;
@@ -409,7 +427,7 @@
 
 
     iframe {
-        margin: 40px;
+        margin: 10px;
     }
 
     ul.banner-social-buttons {
