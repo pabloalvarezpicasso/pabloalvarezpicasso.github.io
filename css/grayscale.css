@@ -81,6 +81,24 @@
         color: #ffeb3b;
     }
 
+
+    /*********/
+
+    .pilcro-link {
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+        text-decoration: none;
+        color: #EC6470;
+    }
+
+    .pilcro-link:focus,
+    .pilcro-link:hover {
+        text-decoration: underline;
+        color: #EC6470;
+    }
+    /************/
+
     #mainNav {
         overflow: hidden;
         position: fixed;
@@ -356,6 +374,21 @@
         /*outline: none;*/
         background-color: #210049;
         /*box-shadow: none;*/
+    }
+
+
+    .nequi-link {
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+        text-decoration: none;
+        color: #49cda2;
+    }
+
+    .nequi-link:focus,
+    .nequi-link:hover {
+        text-decoration: underline;
+        color: #49cda2;
     }
 /************/
     .white-section {

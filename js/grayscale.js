@@ -43,7 +43,7 @@
 })(jQuery); // End of use strict
 
 
-var words = ['products', 'tools', 'maps', 'flows', 'experiences', 'services', 'languages', 'frames'];
+var words = ['products', 'tools', 'maps', 'experiences', 'services', 'interfaces', 'journeys'];
 
 var i=0;
 
@@ -53,4 +53,4 @@ setInterval(function(){
     i=-1
   }
   i= i+1
-},2000)
+},1700)
